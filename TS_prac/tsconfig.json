@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
+    // 컴파일될 ES(JS) 버전 명시 - "ES2015" 권장
     "target": "ES5",
+    // 모듈 시스템 지정 - "CommonJS", "AMD", "ESNext"
     "module": "ESNext",
+    // 모듈 해석 방식 지정 - "Node", "Classic"
     "moduleResolution": "Node",
+    // ESM 모듈 방식 호환성 활성화 여부
     "esModuleInterop": true,
+    // 컴파일에서 사용할 라이브러리 지정 -"ESNext", "DOM"
     "lib": ["ESNext", "DOM"],
+    // 더 엄격한 타입 검색 활성화
     "strict": true
   },
+  // 컴파일할 파일 경로 목록
   "include": ["src/**/*.ts"],
+  // 컴파일에서 제외할 파일 경로 목록
   "exclude": ["node_modules"]
 }
 /*

@@ -19,4 +19,9 @@ tsconfig.json 작성
 main.ts 작성 후 터미널에서 npm run dev
 (parcel로 개발 서버 오픈)
 
+npm run dev 하면
+dist 폴더 생성되고
+dist index.html -> src= 부분 들어가면 작성했던 코드들이 들어가있고
+컨트롤 F로 log(hello) 부분 찾아보기
+
 */
