@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+/*
+터미널 켜서 tsc -w
+타입스크립트 파일을 자동으로 자바스크립트 파일로 변환해줌(저장할 때마다)
+*/
